@@ -3,11 +3,8 @@
   "auth-server-url": "https://training.dev.delivery/auth/",
   "ssl-required": "external",
   "resource": "frontend",
+  "public-client": true,
   "verify-token-audience": true,
-  "credentials": {
-    "secret": "8087e2cb-b9a6-46d7-ac95-2c85193b4631"
-  },
   "use-resource-role-mappings": true,
-  "confidential-port": 0,
-  "policy-enforcer": {}
+  "confidential-port": 0
 }
